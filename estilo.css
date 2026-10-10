@@ -1,0 +1,73 @@
+/* Página pública do Hefesto: as mesmas cores e a mesma marca da interface. */
+:root {
+  color-scheme: light dark;
+  --fundo: light-dark(#e7eae3, #121817);
+  --tinta: light-dark(#14201c, #e9ede7);
+  --tinta-fraca: light-dark(#52605a, #9aa79f);
+  --linha: light-dark(#c5ccc0, #33403c);
+  --maquina: light-dark(#2f5d50, #6cc4a8);
+  --sinal: light-dark(#d99a00, #f5c518);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+  background: var(--fundo);
+  color: var(--tinta);
+  font: 1.05rem/1.6 system-ui, sans-serif;
+}
+
+header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 3px solid var(--tinta);
+}
+
+header svg {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.faisca {
+  fill: var(--sinal);
+}
+
+h1 {
+  margin: 0.5rem 0 0.25rem;
+  font: 800 2.5rem/1 "Arial Narrow", "Helvetica Neue", system-ui, sans-serif;
+}
+
+header p,
+footer {
+  color: var(--tinta-fraca);
+}
+
+header p {
+  margin: 0;
+}
+
+h2 {
+  margin: 2rem 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+p,
+ul {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: var(--maquina);
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--linha);
+  font-size: 0.95rem;
+}

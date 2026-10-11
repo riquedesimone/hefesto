@@ -14,7 +14,7 @@
         <path class="faisca" d="M30 0l1.6 3.9L35.5 5.5l-3.9 1.6L30 11l-1.6-3.9L24.5 5.5l3.9-1.6z" />
       </svg>
       <h1>Política de privacidade</h1>
-      <p><a href="./">Hefesto</a>, fábrica de conteúdo. Vale desde 10 de outubro de 2026.</p>
+      <p><a href="./">Hefesto</a>, fábrica de conteúdo. Vale desde 11 de outubro de 2026.</p>
     </header>
     <main>
       <h2>Quem usa</h2>
@@ -28,18 +28,34 @@
       <ul>
         <li>saber qual é o canal autorizado, pelo nome e pelo identificador;</li>
         <li>enviar vídeos, thumbnails e legendas para esse canal, pôr vídeos em playlists e mudar a visibilidade deles;</li>
-        <li>ler os comentários e os números de audiência do próprio canal.</li>
+        <li>ler os comentários e os números de audiência do próprio canal;</li>
+        <li>responder a comentários do próprio canal, ocultá-los ou rejeitá-los, sempre depois de o dono aprovar cada ação na tela.</li>
       </ul>
       <p>Ela não acessa canais de outras pessoas nem outros dados da conta Google.</p>
 
       <h2>Onde isso fica</h2>
       <p>
-        A autorização fica guardada só no computador do dono, num arquivo que só ele lê. O Hefesto não tem servidor próprio: nada do que vem da API do
-        YouTube é enviado para outro lugar.
+        A autorização fica guardada só no computador do dono, num arquivo que só ele lê. O Hefesto não tem servidor próprio. Os números de audiência
+        ficam na pasta do projeto do canal, nesse mesmo computador. Os comentários, com o nome de quem escreveu, e o registro das ações de moderação
+        ficam em outra pasta do computador, fora do projeto.
+      </p>
+      <p>
+        Os comentários guardados são atualizados a cada leitura. Quando o dono retira o acesso, eles são apagados junto com a autorização.
+      </p>
+
+      <h2>Uso de inteligência artificial</h2>
+      <p>
+        Para classificar os comentários, sugerir respostas e escrever o relatório semanal do canal, o Hefesto entrega o texto dos comentários e os
+        números de audiência a um modelo de IA, o Claude, da Anthropic. O serviço recebe esses dados só para processar o pedido e devolver a resposta,
+        nas condições da <a href="https://www.anthropic.com/legal/privacy">política de privacidade da Anthropic</a>. Nenhuma resposta ou ação de
+        moderação sai sem o dono ler e aprovar.
       </p>
 
       <h2>O que ela não faz</h2>
-      <p>Os dados obtidos pela API do YouTube não são vendidos, não são compartilhados com terceiros e não são usados para publicidade.</p>
+      <p>
+        Os dados obtidos pela API do YouTube não são vendidos e não são usados para publicidade. Fora o serviço de IA descrito acima, não são
+        entregues a mais ninguém.
+      </p>
 
       <h2>Como retirar o acesso</h2>
       <p>
